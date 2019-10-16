@@ -37,7 +37,7 @@ displayQuestion = questions => {
 
           // inject the correct answer in the possible answers
           let possibleAnswers = question.incorrect_answers;
-          possibleAnswers.splice( Math.floor( Math.random() * 4 ), 0, correctAnswer );
+          possibleAnswers.splice( Math.floor( Math.random() * 3 ), 0, correctAnswer );
 
   
           // add the HTML for the Current Question
